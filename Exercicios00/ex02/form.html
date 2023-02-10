@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="popup.js">
+        
+    </script>
+</head>
+<body>
+    <form >
+        <label for="fname">Primeiro Nome</label>
+        <input type="text" id="firstname" name="firstname">
+
+        <br><br>
+
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name">
+
+        <br><br>
+
+        <label for="idade">Idade</label>
+        <input type="number" id="age" name="age">
+
+        <br><br>
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="phone" name="phone">
+
+        <br><br>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email">
+
+        <br><br>
+
+        <label for="">Aluno 42 ?</label>
+        <input type="checkbox" name="student" id="student">
+
+        <br><br>
+
+        <label for="">Sexo</label>
+        <input type="radio" id="gender_male" name="sexo" value="gender_male">M
+        <input type="radio" id="gender_female" name="sexo" value="gender_female">F
+        <input type="radio" id="gender_other" name="sexo" value="gender_other">O
+
+        <br><br>
+
+        <input type="submit" onclick="displayFormContents();" value="Enviar">
+
+
+    </form>
+</body>
+</html>
